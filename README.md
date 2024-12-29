@@ -3,7 +3,18 @@
 ### Universidad Nacional de Quilmes (UNQ)
 
 ## Descripción
-Este repositorio contiene el proyecto final y el material práctico desarrollado durante la cursada de la materia "Estrategias de Persistencia". El dominio elegido para las implementaciones se llama Epersgeist e incluye entidades relacionadas con **Espíritus**, **Ubicaciones** y **Mediums**.
+Este repositorio contiene el proyecto final y el material práctico desarrollado durante la cursada de la materia "Estrategias de Persistencia". 
+
+## Dominio
+Nos situamos en una realidad alterna llamada Epersgeist, donde entidades como **Espíritus** y **Mediums**, se encuentran interactuando en distintas **Ubicaciones** y nosotros somos los encargados de persistir sus travesias. 
+
+### Lore completo:
+- [Entrega 1 - JDBC](enunciado/entrega1/entrega1.md)
+- [Entrega 2 - ORM - Hibernate](enunciado/entrega2/entrega2.md)
+- [Entrega 3 - ORM - Spring](enunciado/entrega3/entrega3.md)
+- [Entrega 4 - NoSQL - Neo4j - Spring](enunciado/entrega4/enunciado_tp4.md)
+- [Entrega 5 - NoSQL - MongoDB - Spring](enunciado/entrega5/enunciado_tp5.md)
+- [Entrega 6 - NoSQL - Firebase - Spring](enunciado/entregaFinal/enunciadoFinal.md)
 
 ### Tecnologías utilizadas
 - **Lenguaje:** Java 21
