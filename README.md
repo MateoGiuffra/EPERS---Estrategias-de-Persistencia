@@ -7,7 +7,7 @@ Este repositorio contiene el proyecto final y el material práctico desarrollado
 
 ### Tecnologías utilizadas
 - **Lenguaje:** Java 21
-- **Frameworks:** Spring Boot y Spring Web Flux
+- **Framework:** Spring en conjunto con Spring Boot y Spring Web Flux
 - **Programación reactiva:** Mono y Flux para manejo asíncrono de datos en tiempo real.
  Solo implementado en el proyecto final para potenciar la propiedad realtime de Firebase.
 - **Bases de datos:**
@@ -86,7 +86,8 @@ Se realizaron pruebas:
 4. Acceder a la API a través de Postman o un navegador web en `http://localhost:8080`.
 
 ## IMPORTANTE
-Este proyecto fue un trabajo grupal durante toda la cursada. No puedo forkear el proyecto por eso cree el repo. 
-Esta bajo licencia de uso academico, destinado a fines educativos y como muestra de los contenidos vistos en la materia. 
-El proyecto fue evolucionando a la vez que veiamos contenidos nuevos. No hay rastros de herramientas como JDBC por ejemplo pero fue visto. 
+ -  Este proyecto fue un trabajo grupal durante toda la cursada. No puedo forkear el proyecto por eso cree el repo.
+ -  Esta bajo licencia de uso academico, destinado a fines educativos y como muestra de los contenidos vistos en la materia.
+ -  El proyecto fue evolucionando a la vez que veiamos contenidos nuevos. No hay rastros de herramientas como JDBC por ejemplo pero fue visto. 
+
 
