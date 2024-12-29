@@ -3,13 +3,13 @@
 ### Universidad Nacional de Quilmes (UNQ)
 
 ## Descripción
-Este repositorio contiene el proyecto final y el material práctico desarrollado durante la cursada de la materia "Estrategias de Persistencia". El dominio elegido para las implementaciones incluye entidades relacionadas con **Espíritus (Ángeles y Demonios)**, **Ubicaciones (Santuarios y Cementerios)** y **Mediums**.
+Este repositorio contiene el proyecto final y el material práctico desarrollado durante la cursada de la materia "Estrategias de Persistencia". El dominio elegido para las implementaciones se llama Epersgeist e incluye entidades relacionadas con **Espíritus**, **Ubicaciones** y **Mediums**.
 
 ### Tecnologías utilizadas
 - **Lenguaje:** Java 21
 - **Frameworks:** Spring Boot y Spring Web Flux
 - **Programación reactiva:** Mono y Flux para manejo asíncrono de datos en tiempo real.
- Solo implementado para el proyecto final para potenciar la propiedad realtime de Firebase.
+ Solo implementado en el proyecto final para potenciar la propiedad realtime de Firebase.
 - **Bases de datos:**
   - Relacional: MySQL
   - NoSQL: MongoDB y Firebase
@@ -22,9 +22,11 @@ A lo largo de la cursada se exploraron los siguientes conceptos y tecnologías:
 - **ORM y Hibernate:** Introducción y ciclo de vida de los objetos.
 - **Teorema CAP:** Consistencia, disponibilidad y tolerancia a particiones.
 - **Propiedades ACID:** Atomicidad, consistencia, aislamiento y durabilidad.
+- **Tipos de permisos en bases de datos:** Read-Only, Read-Write, Write-Only, No-Access
 - **Performance:**
   - Optimización de consultas para evitar cargar datos innecesarios en memoria.
   - Uso de índices y estrategias para consultas eficientes.
+  
 
 ### Spring Framework
 - Configuración del entorno y conexión a bases de datos.
@@ -39,14 +41,14 @@ Se adoptó una arquitectura basada en **Clean Architecture** con las siguientes 
 - **Persistencia:**  Uso de DAOs para interactuar con las bases de datos.
 
 ### Herramientas y técnicas
-- **Neo4J:** Introducción al uso de bases de grafos.
-- **MongoDB:** Persistencia orientada a documentos.
+- **Neo4J:** Introducción al uso de bases de grafos. Usado para recorrer nodos.
+- **MongoDB:** Usado especicamente para consultas geo-espaciales.
 - **Firebase:** Investigación e implementación como proyecto final.
 - **Postman:** Testing de endpoints REST.
 - **MockMVC:** Pruebas unitarias y de integración para APIs.
 
 ### Problemáticas abordadas
-- **Concurrencia:**
+- **Concurrencia a nivel teorico:**
   - Lockeo optimista y pesimista.
   - Estrategias para manejar el acceso concurrente a las bases de datos.
 - **Caché de segundo nivel (L2):** Uso y beneficios en Hibernate.
